@@ -3,15 +3,18 @@
 namespace BsTestimonial\Migrations;
 
 
-class TestimonialTable {
-    
+class TestimonialTable
+{
+
     private $table = 'bs_testimonials';
 
-    public function exec(){
+    public function exec()
+    {
         $this->createTable();
     }
 
-    private function createTable() {
+    private function createTable()
+    {
         global $wpdb;
         $charset_collate = $wpdb->get_charset_collate();
 
@@ -24,6 +27,7 @@ class TestimonialTable {
                 content longtext NOT NULL,
                 avatar varchar(255) NULL,
                 designation varchar(255) NULL,
+                star tinyint DEFAULT 1,
                 status tinyint DEFAULT 1 NOT NULL,
                 created_at datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
                 modified_at datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,

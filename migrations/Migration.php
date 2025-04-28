@@ -14,6 +14,4 @@ class Migration
 
         add_option("bst_db_version", $this->bst_db_version);
     }
-
 }
-?>

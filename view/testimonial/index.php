@@ -1,7 +1,7 @@
 <div class="wrap row">
     <div class="col-10">
         <h1 class="wp-heading-inline">Testimonials
-            <a href="<?php echo admin_url('?page=bsg_manageTestimonials') ?>" class="alignright button button-primary">Add Testimonial</a>
+            <a href="<?php echo admin_url('admin.php?page=bs_manageTestimonials') ?>" class="alignright button button-primary">Add Testimonial</a>
         </h1>
         <table class="wp-list-table widefat fixed striped table-view-list">
             <thead>

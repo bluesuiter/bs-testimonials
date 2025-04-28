@@ -4,7 +4,7 @@
  Plugin Name: Bs Testimonial
  Plugin URI: 
  Description: Bs Testimonial
- Version: 0.3.21
+ Version: 0.4.25
  Author: BlueSuiter's
  Author URI: 
  */

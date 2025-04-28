@@ -129,7 +129,9 @@ if (!function_exists('getContentTrim')) {
 if (!function_exists('pr')) {
     function pr($key)
     {
-        echo '<pre>', print_r($key), '</pre>';
+        echo '<pre>';
+        echo print_r($key);
+        echo '</pre>';
     }
 }
 
