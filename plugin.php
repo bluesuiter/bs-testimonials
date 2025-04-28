@@ -1,12 +1,12 @@
 <?php
 
 /*
- Plugin Name: Bs Testimonial
- Plugin URI: 
- Description: Bs Testimonial
+ Plugin Name: BS-Testimonial
+ Plugin URI: https://github.com/bluesuiter/bs-testimonials
+ Description: Testimonials plugin.
  Version: 0.4.25
- Author: BlueSuiter's
- Author URI: 
+ Author: BlueSuiter
+ Author URI: https://amitchauhan.net
  */
 
 require_once plugin_dir_path(__FILE__) . 'bootstrap.php';
